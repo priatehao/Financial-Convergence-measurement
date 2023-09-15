@@ -1,4 +1,4 @@
-import excel "financial convergence measure.xlsx", sheet("Sheet1") firstrow  clear
+import excel "Financial Convergence measure.xlsx", sheet("Sheet1") firstrow  clear
 
 egen id=group(省份)
 xtset id 时间
