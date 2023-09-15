@@ -1,4 +1,4 @@
-import excel "D:\新建文件夹\我的论文\省际论文\ 提交.xlsx", sheet("Sheet1") firstrow  clear
+import excel "financial convergence measure.xlsx", sheet("Sheet1") firstrow  clear
 
 egen id=group(省份)
 xtset id 时间
